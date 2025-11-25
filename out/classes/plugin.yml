@@ -1,0 +1,15 @@
+name: CoinCredit
+main: com.foxsrv.credit.CreditPlugin
+version: 1.0
+api-version: 1.21
+authors:
+  - FoxSrv
+description: Plugin para converter coins em créditos usando Coin API (Card transfer)
+commands:
+  credit:
+    description: Buy credits using Coin Card
+    usage: /credit buy <amount> <cardId>
+permissions:
+  credit.reload:
+    description: Reload plugin config
+    default: op

@@ -1,0 +1,14 @@
+# Config for CoinCredit plugin
+ServerID: "829198573318747000"    # server coin account (string)
+Worth: 1.00                       # how many credits each coin worth (decimal)
+Decimals: 2                       # how many decimals the worth has (int)
+
+# command executed after a transaction confirmation
+# placeholders: %player% %amount% %ID%
+command: "gemseconomy:eco give %player% %amount%"
+
+# API base URL (do not change if you don't know what you're doing)
+API: "http://coin.foxsrv.net:26450/"
+
+# Cooldown in milliseconds per player (1 sec)
+cooldown_ms: 1000
